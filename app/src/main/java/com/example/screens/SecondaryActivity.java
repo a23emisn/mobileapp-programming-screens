@@ -18,10 +18,8 @@ public class SecondaryActivity extends AppCompatActivity {
         celebration = extras.getString("celebration");
         date = extras.getString("date");
 
-
         TextView textView = findViewById(R.id.TextView);
 
-        // Update TextView content based on the variable
         textView.setText("Välkommen på " + celebration + " den " + date + ".");
     }
 }
